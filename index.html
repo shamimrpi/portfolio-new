@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+    <title>Shamim Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-light">
+        <div class="container fixed-top" >
+            <nav class="navbar navbar-expand-sm navbar-light transparent">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-uppercase fw-bolder" href="javascript:void(0)">Shamim IT</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="mynavbar">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Service</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Testimonial</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Blog</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>
+        
+    </header>
+    <section class="hero-section">
+        <div class="bg-img w-100  overflow-hidden position-relative">
+            <img class="min-vh-100" src="img/bg.jpg" alt="">
+            <div class="slide-part position-absolute">
+                <h1 class="d-flex typed"> I AM <span class="ps-3" id="typed"></span> </h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container about-part py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-img overflow-hidden position-relative text-center">
+                        <img class="w-100 m-auto border border-dark" src="img/shamim.jpg" alt="">
+                        <div class="over-lay position-absolute">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h1 class="about-title ">A Little Bit About Myself</h1>
+
+                    <h5 class="fw-bolder">A Curious Learner and Diligent Coder</h5>
+                    <p>I’m Md. Shamim Miah . My typical work day starts with working on the front-end part of a website or writing codes for an application. In the last seven years, I’ve learned a few things that I’m happy to utilize to help my valued clients and dear colleagues.
+
+                    <p><span class="fw-bolder">Front-End:</span>  HTML5, CSS3, Bootstrap, Foundation, JavaScript, jQuery, AJAX,</p>
+                    </p>
+                    <p><span class="fw-bolder">Back-End:</span> PHP,Laravel,SQL,MySQLi</p>
+                    </p>
+                    <h5 class="fw-bolder">My Skills</h5>
+                    <div class="skill">
+                         <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">PHP 60%</div>
+                          </div>
+                          <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Laravel 50%</div>
+                          </div>
+                          <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 58%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Bootstrap 58%</div>
+                          </div>
+                          <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML 70%</div>
+                          </div>
+                          <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS 75%</div>
+                          </div>
+                          <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript 55%</div>
+                          </div>
+                          <div class="progress my-3">
+                            <div class="progress-bar bg-golden" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Ajax 60%</div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer class="bg-dark py-3">
+       <h5 class="text-center">Design And Developed By Md. Shamim Miah</h5>
+   </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+        strings: [
+            "Md.SHAMIM MIAH",
+            "A DESIGNER",
+            "A WEB DEVELOPER",
+            "A ENTREPRENEUR",
+			"A INSTRUCTOR",
+			"A LEARNER",
+        ],
+        typeSpeed: 100,
+        backSpeed:100,
+        loop:true,
+        typeDelay:1000
+      });
+       
+   </script>
+</body>
+</html>
